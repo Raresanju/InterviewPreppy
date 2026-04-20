@@ -17,7 +17,6 @@ AI interview simulator with a `FastAPI` backend and `React` frontend.
 From project root:
 
 ```bash
-cd /Users/sanjuvalavala/Desktop/Interviewpreppy
 source .venv/bin/activate
 pip install -r backend/requirements.txt
 ```
@@ -37,7 +36,6 @@ OPENAI_API_KEY=sk-...
 Run backend:
 
 ```bash
-cd /Users/sanjuvalavala/Desktop/Interviewpreppy
 .venv/bin/uvicorn --app-dir backend main:app --host 127.0.0.1 --port 8000
 ```
 
@@ -53,7 +51,6 @@ curl -s http://127.0.0.1:8000/api/v1/model/health
 In a new terminal:
 
 ```bash
-cd /Users/sanjuvalavala/Desktop/Interviewpreppy/frontend
 npm install
 npm start
 ```
