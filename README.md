@@ -67,7 +67,6 @@ Open:
 Terminal A (backend):
 
 ```bash
-cd /Users/sanjuvalavala/Desktop/Interviewpreppy
 source .venv/bin/activate
 .venv/bin/uvicorn --app-dir backend main:app --host 127.0.0.1 --port 8000
 ```
@@ -75,7 +74,6 @@ source .venv/bin/activate
 Terminal B (frontend):
 
 ```bash
-cd /Users/sanjuvalavala/Desktop/Interviewpreppy/frontend
 npm start
 ```
 
